@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(new MyImage(getApplicationContext()));
     }
 
-    class MyImage extends View{
+    /*class MyImage extends View{
 
         MyImage(Context context) {
             super(context);
@@ -33,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
             float y = (getHeight()-picture.getWidth())/2.0f;
            // canvas.rotate(45,cx,cy); -> 회전
            // canvas.translate(-150,200); -> 이동
-            canvas.scale(0.5f,0.5f,cx,cy); -> 크기
+            canvas.scale(0.5f,0.5f,cx,cy);
            // canvas.skew(0.4f,0.4f); -> 비틀기
             canvas.drawBitmap(picture,x,y,null);
         }
-    }
+    }*/
 }
